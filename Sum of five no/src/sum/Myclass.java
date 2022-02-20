@@ -19,10 +19,11 @@ public class Myclass
 			
 		      sum+=d;
 		      avg=sum/data.length;
-		      System.out.println("Sum of Five numbers :"+sum);
-		      System.out.println("Average of five number :"+avg);
+		      System.out.println("Sum of FIvesum);
+		      System.out.println(avg);
 	
-	
-		    		
+		
+		
+		
 	}
 }

@@ -9,7 +9,7 @@ public class number
 		int[] data=new int[5];
 		Scanner obj =new Scanner(System.in);
 		
-		for(int i=0;i<data.length;i++) 
+		for(int i=0;i<5;i++) 
 		{
 			System.out.println("Enter any Number");
 			data[i] = obj.nextInt();
@@ -17,11 +17,11 @@ public class number
 		
 		int temp=data[0];
 		
-		for(int d=1;d<data.length;d++)
+		for(int d:data)
 		{										
-			if(data[d]>temp)
+			if(d>temp)
 			{
-				temp=data[d];
+				;
 			}
 			
 		}
